@@ -1,2 +1,2 @@
 # M.Y.Project
-Working simple design practice using css.
+Portfolio personal project using Michael Young as an example.
