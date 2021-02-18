@@ -1,0 +1,129 @@
+* {
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: -1em;
+    padding: 0%;
+}
+.header {
+    background-image: url('images/bg(M.Y.).jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+.header h1{
+    color: black;
+    text-shadow: 1px 1px 5px chocolate;
+}
+
+.footer {
+    border-radius: .25em 3em 3em .25em;
+    background-image: url('images/bg(M.Y.).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    color: black;
+    text-shadow: -2px -1px 2px rosybrown;
+}
+footer {
+    text-align: center;
+    font-size: 2em;
+    align-self: flex-end;
+}
+
+body {
+    background-image:url('images/bg(M.Y.).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.para {
+    margin-top: 5em;
+    font-size: 3em;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/bg(M.Y.).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    color: black;
+    text-shadow: -2px -1px 2px goldenrod;
+    text-align: center;
+}
+
+.content{
+    padding: 1em 1em;
+}
+
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: inset 1px 1px 5px rgb(250, 250, 250);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 0px 0px 8px rgb(45, 175, 255);
+    border-radius: 1em;
+}
+::-webkit-scrollbar-track{
+    border-radius: 1em;
+}
+
+div div p {
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: .25em;
+}
+
+.nav-bar ul{
+    background-color: black;
+    border-style:double;
+    
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+
+    color: chocolate;
+    display: inline-block;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+li {
+    display: list-item;
+    padding: 0em .5em;
+    float: left;
+    
+}
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: chocolate;
+}
+li a:visited {
+    color: chocolate;
+}
+img{
+    filter: blur(10px);
+    transition: 500ms;
+}
+img:hover{
+    filter: blur(0px);
+    image-rendering: crisp-edges;
+}
