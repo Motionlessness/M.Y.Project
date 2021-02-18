@@ -120,11 +120,24 @@ li a {
 li a:visited {
     color: chocolate;
 }
-img{
-    filter: blur(10px);
-    transition: 500ms;
+
+.container {
+    position: relative;
+    max-width: 100%;
 }
-img:hover{
-    filter: blur(0px);
-    image-rendering: crisp-edges;
+.slides {
+    display: none;
 }
+.next, .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 12px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
