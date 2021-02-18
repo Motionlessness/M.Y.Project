@@ -120,6 +120,10 @@ li a {
 li a:visited {
     color: chocolate;
 }
+li a:hover {
+    color: brown;
+    text-shadow: 1px 1px 1px brown;
+}
 
 .container {
     position: relative;
@@ -134,10 +138,16 @@ li a:visited {
     top: 50%;
     width: auto;
     padding: 12px;
-    color: white;
+    color: rgba(200, 0, 205, 0.45);
     border-radius: 3px 0 0 3px;
+    transform: translate(0%,-50%);
 }
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
+
+.next:hover, .prev:hover{
+    color: rgba(200, 0, 205, 0.8);
+    text-shadow: 1px 1px 2px black;
+}
