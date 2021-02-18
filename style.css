@@ -162,6 +162,6 @@ li a:hover {
     left: 0;
     background-color: black;
     z-index: 9999;
-    transition: opacity 1000ms linear;
+    transition: opacity 10s linear;
 }
 

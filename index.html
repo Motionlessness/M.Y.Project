@@ -136,9 +136,10 @@
             if (preloader.style.opacity > 0) {
                 preloader.style.opacity -= 0.1;
             } else {
+                preloader.style.display = "none";
                 clearInterval(fadeEffect);
             }
-            },1000);
+            },200);
         });
     </script>
 </body>
