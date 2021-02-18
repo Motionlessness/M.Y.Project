@@ -128,18 +128,18 @@
 
         const preloader = document.querySelector('.loaderContainer');
 
-        const fadeEffect = setInterval(() => {
-        if (!preloader.style.opacity) {
-            preloader.style.opacity = 1;
-        }
-        if (preloader.style.opacity > 0) {
-            preloader.style.opacity -= 0.1;
-        } else {
-            clearInterval(fadeEffect);
-        }
-        }, 1000);
-
-        window.addEventListener('load', fadeEffect);
+        window.addEventListener('load', () => {
+            let fadeEffect = setInterval(()=>{
+            if (!preloader.style.opacity) {
+                preloader.style.opacity = 1;
+            }
+            if (preloader.style.opacity > 0) {
+                preloader.style.opacity -= 0.1;
+            } else {
+                clearInterval(fadeEffect);
+            }
+            },1000);
+        });
     </script>
 </body>
 </html>
