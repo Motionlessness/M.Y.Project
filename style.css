@@ -90,6 +90,7 @@ div div p {
 }
 
 .nav-bar ul{
+    z-index: 100;
     background-color: black;
     border-style:double;
     
