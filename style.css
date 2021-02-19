@@ -86,7 +86,13 @@ body {
 }
 
 div div p {
-    background-color: rgba(255, 255, 255, .05);
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    padding: 3px 2px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgb(205,255,205);
+    background-color: rgba(205, 255, 205, .25);
     border-radius: .25em;
 }
 
